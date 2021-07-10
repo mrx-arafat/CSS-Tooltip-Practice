@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Example</title>
+    <style>
+      /* toltip-container */
+      .tooltip {
+        position: relative;
+        display: inline-block;
+        border-bottom: 1px dotted black; /* dotted border */
+      }
+      /* tooltip text */
+      .tooltip .tooltiptext {
+        visibility: hidden;
+        margin-left: 5px;
+        width: 150px;
+        background-color: black;
+        color: #fff;
+        text-align: center;
+        padding: 5px 10px;
+        border-radius: 6px;
+        clip-path: polygon(
+          7% 1%,
+          100% 0%,
+          100% 100%,
+          6% 100%,
+          7% 60%,
+          0 39%,
+          8% 41%
+        );
+        /* position of tooltip */
+        position: absolute;
+        z-index: 1;
+      }
+      /* hover */
+      .tooltip:hover .tooltiptext {
+        visibility: visible;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tooltip">
+      Hover over me
+      <span class="tooltiptext">Hello, welcome to github</span>
+    </div>
+  </body>
+</html>
