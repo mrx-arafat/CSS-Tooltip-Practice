@@ -1,2 +1,2 @@
 # CSS-Tooltip-Practice
-just CSS tooltip effect. Position Visibility and Shape of that tooltip box.
+just tooltip effect using CSS. Position Visibility and Shape of that tooltip box.
